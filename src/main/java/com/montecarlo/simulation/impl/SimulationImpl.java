@@ -43,11 +43,11 @@ public class SimulationImpl implements ISimulation {
 
     @Override
     public boolean hasExceptions() {
-        return false;
+        return hasExceptions;
     }
 
     @Override
     public Collection<Throwable> getExceptions() {
-        return null;
+        return exceptions;
     }
 }
